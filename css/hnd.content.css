@@ -65,32 +65,60 @@ a.rvts10, span.rvts10
  color: #008000;
  text-decoration: underline;
 }
-span.rvts11 /* Font Style */
+span.rvts11
+{
+ font-size: 12pt;
+ font-family: 'Arial Black', 'Gadget', sans-serif;
+ font-weight: bold;
+}
+span.rvts12
+{
+ font-size: 22pt;
+ font-family: 'Arial Black', 'Gadget', sans-serif;
+ font-weight: bold;
+}
+span.rvts13 /* Font Style */
 {
  font-family: 'Tahoma', 'Geneva', sans-serif;
  font-style: italic;
  color: #c0c0c0;
 }
-a.rvts12, span.rvts12 /* Font Style */
+a.rvts14, span.rvts14 /* Font Style */
 {
  font-family: 'Tahoma', 'Geneva', sans-serif;
  font-style: italic;
  color: #6666ff;
  text-decoration: underline;
 }
-span.rvts13
-{
- font-size: 12pt;
- font-weight: bold;
- color: #007bbf;
-}
-span.rvts14
-{
- font-size: 12pt;
- font-weight: bold;
- color: #007bbf;
-}
 span.rvts15
+{
+ font-size: 12pt;
+ font-weight: bold;
+ color: #007bbf;
+}
+span.rvts16
+{
+ font-size: 12pt;
+ font-weight: bold;
+ color: #007bbf;
+}
+span.rvts17
+{
+ font-size: 12pt;
+}
+span.rvts18
+{
+ font-size: 12pt;
+ font-weight: bold;
+ color: #7f0000;
+}
+span.rvts19
+{
+ font-size: 12pt;
+ font-weight: bold;
+ color: #00007f;
+}
+span.rvts20
 {
  font-size: 16pt;
  font-weight: bold;
@@ -118,7 +146,17 @@ p,ul,ol /* Paragraph Style */
 {
  margin: 0px 505px 0px 24px;
 }
-.rvps5 /* Paragraph Style */
+.rvps5
+{
+ background: #f2f2f2;
+ margin: 0px 716px 0px 24px;
+}
+.rvps6
+{
+ text-indent: 48px;
+ margin: 0px 505px 0px 312px;
+}
+.rvps7 /* Paragraph Style */
 {
  text-align: center;
  border-color: #c0c0c0;
@@ -129,13 +167,34 @@ p,ul,ol /* Paragraph Style */
  padding: 2px 0px 2px 0px;
  margin: 7px 0px 7px 0px;
 }
-.rvps6
+.rvps8
 {
  text-align: left;
  text-indent: 0px;
  break-after: avoid;
  padding: 0px 0px 0px 0px;
  margin: 16px 0px 4px 0px;
+}
+.rvps9
+{
+ text-align: left;
+ text-indent: 0px;
+ break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 16px 178px 4px 0px;
+}
+.rvps10
+{
+ text-align: justify;
+ text-justify: inter-word;
+ text-align-last: auto;
+ margin: 0px 178px 0px 0px;
+}
+.rvps11
+{
+ text-align: justify;
+ text-justify: inter-word;
+ text-align-last: auto;
 }
 /* ========== Lists ========== */
 .list0 {text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;}
